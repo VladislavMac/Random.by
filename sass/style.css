@@ -1,0 +1,107 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: white;
+  background: #19191f;
+}
+
+input {
+  border: 2px solid #21E8FC;
+  border-radius: 4px;
+  color: white;
+  background: #161618;
+  padding: 3px;
+  font-size: 18px;
+}
+
+main {
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .wrapper {
+  -webkit-box-shadow: 0 0 1000px 1px #21E8FC, 0 0 500px 1px #21E8FC;
+          box-shadow: 0 0 1000px 1px #21E8FC, 0 0 500px 1px #21E8FC;
+  background: -webkit-gradient(linear, left top, left bottom, from(#161618), color-stop(20%, #131318));
+  background: linear-gradient(180deg, #161618, #131318 20%);
+  padding: 30px;
+  border: 2px solid #21E8FC;
+  border-radius: 5px;
+}
+
+main .wrapper .wrapper-header .header-title {
+  padding: 10px;
+}
+
+main .wrapper .wrapper-header .header-title .title-h1 {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 60px;
+}
+
+main .wrapper .wrapper-content .content-title {
+  padding: 5px;
+}
+
+main .wrapper .wrapper-content .content-title .title-h2 {
+  font-family: 'Source Code Pro', monospace;
+}
+
+main .wrapper .wrapper-content .content-input {
+  padding-top: 10px;
+}
+
+main .wrapper .wrapper-content .content-input .input {
+  font-family: 'Cantarell', sans-serif;
+  padding: 6px;
+  padding-top: 5px;
+}
+
+main .wrapper .wrapper-content .content-input .input .input-title {
+  font-size: 25px;
+}
+
+main .wrapper .wrapper-footer {
+  padding: 6px;
+}
+
+main .wrapper .wrapper-footer .footer-button {
+  padding-top: 10px;
+}
+
+main .wrapper .wrapper-footer .footer-button button {
+  font-family: 'Source Code Pro', monospace;
+  font-weight: bold;
+  border-radius: 1px;
+  border: none;
+  color: #000;
+  -webkit-box-shadow: 0 0 1px 1px #21E8FC;
+          box-shadow: 0 0 1px 1px #21E8FC;
+  background: #21E8FC;
+  padding: 15px;
+  font-size: 25px;
+}
+
+main .wrapper .wrapper-footer .footer-button button:hover {
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 40px 1px #21E8FC;
+          box-shadow: 0 0 40px 1px #21E8FC;
+}
+
+main .wrapper .wrapper-footer .footer-bottom {
+  font-family: 'Cantarell', sans-serif;
+  padding-top: 20px;
+  font-size: 22px;
+}
+/*# sourceMappingURL=style.css.map */

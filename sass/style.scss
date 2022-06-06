@@ -1,0 +1,94 @@
+$colorButton: #21E8FC;
+$colorBG: #FF90FF;
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    color: white;
+    background: #19191f;
+}
+input{
+    border: 2px solid $colorButton;
+    border-radius: 4px;
+    color: white;
+    background: #161618;
+    padding: 3px;
+    font-size: 18px;
+}
+
+main{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    .wrapper{
+        box-shadow:0 0 1000px 1px $colorButton, 0 0 500px 1px $colorButton;
+        background: linear-gradient(180deg,#161618,#131318 20%);
+        padding: 30px;
+        border: 2px solid $colorButton;
+        border-radius: 5px;
+        // Header
+        .wrapper-header{
+            .header-title{
+                padding: 10px;
+                .title-h1{
+                    font-family: 'Source Code Pro', monospace;
+                    font-size: 60px;
+                }
+            }
+        }
+        // Content
+        .wrapper-content{
+            .content-title{
+                padding: 5px;
+                .title-h2{
+                    font-family: 'Source Code Pro', monospace;
+                }
+            }
+            .content-input{
+                padding-top: 10px;
+                .input{
+                    font-family: 'Cantarell', sans-serif;
+                    padding: 6px;
+                    padding-top: 5px;
+                    .input-title{
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+        // Footer
+        .wrapper-footer{
+            padding: 6px;
+            .footer-button{
+                padding-top: 10px;
+                button{
+                    font-family: 'Source Code Pro', monospace;
+                    font-weight: bold;
+                    border-radius: 1px;
+                    border: none;
+                    color: #000;
+                    box-shadow:0 0 1px 1px  $colorButton;
+                    background: $colorButton;
+                    padding: 15px;
+                    font-size: 25px;
+                }
+                button:hover{
+                    transition-duration: 0.5s;
+                    cursor: pointer;
+                    box-shadow: 0 0 40px 1px $colorButton; 
+                }
+            }
+            .footer-bottom{
+                font-family: 'Cantarell', sans-serif;
+                padding-top: 20px;
+                font-size: 22px;
+            }
+        }
+    }
+}
+
